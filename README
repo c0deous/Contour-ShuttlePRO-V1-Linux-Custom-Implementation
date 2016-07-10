@@ -1,0 +1,6 @@
+This is a very basic driver implementation for the Contour Design ShuttlePRO V1.
+I found one lying around and decided to fiddle with it - this is the result.
+
+To customize to your liking you will need to know python.  Just replace the lines that print which button was pressed with your desired function.
+
+Dependencies: python-evdev (for USB support)
