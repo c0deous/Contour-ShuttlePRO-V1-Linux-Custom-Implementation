@@ -51,3 +51,6 @@ if __name__ == '__main__':
         readloop(deviceloc)
     except OSError:
         print('[-] Root permissions required to access device on ' + deviceloc)
+    except KeyboardInterrupt:
+        print('Quitting..')
+        quit()
